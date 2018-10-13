@@ -1,13 +1,19 @@
 package com.zhangwen.concurrency.test;
 
-import org.springframework.stereotype.Controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author zhangwen
  * @since 2018/10/12 09:04
  */
-@Controller
+@RestController
 public class TestController {
 
+    @RequestMapping("/test")
+    public String test(){
+        return "test";
+    }
 
 }
