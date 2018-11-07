@@ -1,7 +1,7 @@
 package com.zhangwen.concurrency.singleton;
 
 /**
- * 饿汉模式：单例实例再类装载时进行创建
+ * 饿汉模式：单例实例在类装载时进行创建
  *
  * @author zhangwen
  * @since 2018/10/12 15:06
